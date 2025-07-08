@@ -25,7 +25,7 @@ Note which models are referencing other documents in the database.
   - `name` *(string)*
   - `description` *(string)*
   - `price` *(number)*
-  - `category` *(reference to Category)*
+  - `category` *(string)*
   - `stock` *(number)*
   - `images` *(array of strings for image URLs)*
 - Products should support **filtering and sorting** through query parameters:
@@ -37,15 +37,6 @@ Note which models are referencing other documents in the database.
 ```
 GET /products?category=<categoryId>&minPrice=20&maxPrice=100&inStock=true&sort=-price
 ```
-
----
-
-### Categories
-
-- CRUD operations
-- Fields:
-  - `name` *(string)*
-  - `description` *(string)*
 
 ---
 
