@@ -9,7 +9,8 @@ You will design and build the backend for **MegaMart**, a simplified e-commerce 
 - Implement filtering and sorting on product listings
 - Handle relationships across collections using Mongoose references
 - Develop clean and modular code with proper error handling
-
+- Place your projects on GitHub after getting them set up.  Make incremental commits as you progress
+  
 This project will focus purely on backend functionality. **Authentication and security are not part of this project.**
 
 ---
