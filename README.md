@@ -62,7 +62,7 @@ GET /products?category=<categoryId>&minPrice=20&maxPrice=100&inStock=true&sort=-
   - Updating quantity
   - Removing a product
   - Clearing the cart
-  - Retrieving the cart (include total price calculation)
+  - Retrieving the cart (get all items in cart and include total price calculation)
 
 ---
 
