@@ -98,6 +98,7 @@ GET /products?category=<categoryId>&minPrice=20&maxPrice=100&inStock=true&sort=-
 - Integrate **express-validator** for validating request bodies.
 - Automatically reduce product stock when an order is placed.
 - Allow customers to leave reviews on products.
+- Integrate JWT as well as bcrypt for customers (make sure to add a password field to the Customer model as well)
 
 ---
 
