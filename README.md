@@ -87,7 +87,7 @@ GET /products?category=<categoryId>&minPrice=20&maxPrice=100&inStock=true&sort=-
 ## Project Guidelines
 
 - Structure your project using **Models**, **Routes**, and **Controllers**
-- Use Mongoose references to relate products to categories and orders to customers.
+- Use Mongoose references to relate orders and shopping carts to customers and their items.
 - Make use of `.populate()` to return related data where appropriate.
 
 ---
