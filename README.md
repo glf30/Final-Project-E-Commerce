@@ -28,7 +28,7 @@ Note which models are referencing other documents in the database.
   - `price` *(number)*
   - `category` *(string)*
   - `stock` *(number)*
-  - `images` *(array of strings for image URLs)*
+  - `images` *(array of strings for image URLs)* (optional)
 - Products should support **filtering and sorting** through query parameters:
   - Filter by category, price range, and in-stock status
   - Sort by price or name (ascending or descending)
