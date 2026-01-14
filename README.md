@@ -21,7 +21,7 @@ Note which models are referencing other documents in the database.
 
 ### Products
 
-- CRUD operations
+- CRUD operations (GET, GET by ID, POST, PUT, DELETE)
 - Fields:
   - `name` *(string)*
   - `description` *(string)*
