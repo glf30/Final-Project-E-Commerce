@@ -95,9 +95,8 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sort=-price
 ## Bonus Challenges (Optional)
 
 - Add **pagination** to product listings using `page` and `limit` query parameters.
-- Integrate **express-validator** for validating request bodies.
 - Automatically reduce product stock when an order is placed.
-- Allow customers to leave reviews on products.
+- Allow customers to leave reviews on products by adding a Review model
 - Integrate JWT as well as bcrypt for customers (make sure to add a password field to the Customer model as well)
 
 ---
