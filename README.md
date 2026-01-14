@@ -36,7 +36,7 @@ Note which models are referencing other documents in the database.
 #### Example Query:
 
 ```
-GET /products?category=<categoryId>&minPrice=20&maxPrice=100&inStock=true&sort=-price
+GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sort=-price
 ```
 
 ---
