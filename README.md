@@ -75,7 +75,6 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sort=-price
   - `items` *(copied from the cart at order time)*
   - `total` *(calculated from cart)*
   - `status` *("pending", "shipped", "delivered", "cancelled")*
-  - `createdAt` *(date)*
 - Endpoints should allow:
   - Placing an order from a cart
   - Viewing a customer's orders
