@@ -1,17 +1,16 @@
-# E-Commerce Backend API Project
+# Final Project: E-Commerce Backend API Project
 
 ## Project Overview
 
 You will design and build the backend for **MegaMart**, a simplified e-commerce platform. This project will challenge your backend skills, requiring you to:
 
-- Design MongoDB models for key e-commerce entities
-- Build a RESTful API using Node.js, Express, and Mongoose
+- Build a RESTful API using Node.js, Express, and MongoDB
 - Implement filtering and sorting on product listings
 - Handle relationships across collections using Mongoose references
 - Develop clean and modular code with proper error handling
 - Place your projects on GitHub after getting them set up.  Make incremental commits as you progress
   
-This project will focus purely on backend functionality. **Authentication and security are not part of this project.**
+This project will focus purely on backend functionality. **Authentication and route protection with JWT are not required for this project.**
 
 ---
 
