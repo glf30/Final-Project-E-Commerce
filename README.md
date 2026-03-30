@@ -88,5 +88,6 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sort=-price
 - Automatically reduce product stock when an order is placed.
 - Allow customers to leave reviews on products by adding a Review model
 - Integrate JWT as well as bcrypt for customers (make sure to add a password field to the Customer model as well).  Make it so a customer can only view their orders if they have a JWT token
+- Deploy your project to Render
 
 ---
