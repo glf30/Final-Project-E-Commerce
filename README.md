@@ -6,7 +6,7 @@ You will design and build the backend for **MegaMart**, a simplified e-commerce 
 
 - Build a RESTful API using Node.js, Express, and MongoDB
 - Implement filtering and sorting on product listings
-- Handle relationships across collections using Mongoose references
+- Handle relationships across collections using Mongoose references (Make use of `.populate()` to return related data)
 - Develop clean and modular code with proper error handling
 - Place your projects on GitHub after getting them set up.  Make incremental commits as you progress
   
@@ -79,14 +79,6 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sort=-price
   - Viewing a customer's orders
   - Filtering orders by status
   - Updating the status of an order
-
----
-
-## Project Guidelines
-
-- Structure your project using **Models**, **Routes**, and **Controllers**
-- Use Mongoose references to relate orders and shopping carts to customers and their items.
-- Make use of `.populate()` to return related data where appropriate.
 
 ---
 
