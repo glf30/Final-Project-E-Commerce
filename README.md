@@ -18,6 +18,8 @@ This project will focus purely on backend functionality. **Authentication and ro
 
 Note which models are referencing other documents in the database.
 
+It's up to you to figure out what properties should be required and/or unique
+
 ### Products
 
 - CRUD operations (GET, GET by ID, POST, PUT, DELETE)
@@ -42,7 +44,7 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sortBy=price&s
 
 ### Customers
 
-- CRUD operations
+- CRUD operations (GET, GET by ID, POST, PUT, DELETE)
 - Fields:
   - `name` *(string)*
   - `email` *(string)*
