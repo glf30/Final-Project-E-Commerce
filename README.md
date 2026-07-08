@@ -55,12 +55,12 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sortBy=price&s
 
 ### Shopping Carts
 
-- One shopping cart per customer
 - Fields:
   - `customer` *(reference to Customer)*
   - `products`  *(array of objects with `productId` (reference to Product) (required) and `quantity` (number) (stretch goal))*
 - Endpoints should allow:
-  - Adding a product to the cart
+  - Creating the cart (One shopping cart per customer)
+  - Adding a product to the cart 
   - Removing a product
   - Clearing the cart
   - Retrieving the cart (get all items in cart and include total price calculation)
