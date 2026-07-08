@@ -81,7 +81,7 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sortBy=price&s
   - Viewing a customer's orders
   - Filtering orders by status
   - Updating the status of an order
-  - 
+
 When an order is placed, the cart that was used should be cleared of all items.
 
 ---
