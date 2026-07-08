@@ -73,7 +73,7 @@ GET /products?category=tech&minPrice=20&maxPrice=100&inStock=true&sortBy=price&s
 - Orders are placed based on the shopping cart
 - Suggested fields:
   - `customer` *(reference to Customer)*
-  - `items` *(copied from the cart at order time)*
+  - `products` *(copied from the cart at order time)*
   - `totalPrice` *(calculated from cart)*
   - `status` *("pending", "shipped", "delivered", "cancelled")*
 - Endpoints should allow:
